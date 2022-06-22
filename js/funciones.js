@@ -42,12 +42,23 @@ function Modal(){
                                             min="1" max="10">
                                         </div>
                                         <div class='materiasGrupo3'>
-                                            <label class='materia' for="historia">Calificación en Historia:</label>
-                                            <input type="number" class='${lightOnOff()}' id="historia" name="historia"
+                                            <label class='materia dekstop' for="historia">Calificación en Historia:</label>
+                                            <input type="number" class='${lightOnOff()} dekstop' id="historia" name="historia"
                                             min="1" max="10"><br>
-                                            <label class='materia' for="geografia">Calificación en Geografía:</label>
-                                            <input type="number" class='${lightOnOff()}' id="geografia" name="geografia"
+                                            <label class='materia dekstop' for="geografia">Calificación en Geografía:</label>
+                                            <input type="number" class='${lightOnOff()} dekstop' id="geografia" name="geografia"
                                             min="1" max="10">
+
+                                            <div class='mobile1'>
+                                                <label class='materia' for="historia">Calificación en Historia:</label>
+                                                <input type="number" class='${lightOnOff()}' id="historia" name="historia"
+                                                min="1" max="10"><br>
+                                            </div>
+                                            <div class='mobile2'>
+                                                <label class='materia' for="geografia">Calificación en Geografía:</label>
+                                                <input type="number" class='${lightOnOff()}' id="geografia" name="geografia"
+                                                min="1" max="10">
+                                            </div>
                                         </div>
                                     </div>
                                     <div class='modalBtnGroup'>
@@ -56,7 +67,7 @@ function Modal(){
                                     </div>
                                 </form>
                             </div>
-                         </div>`);
+                        </div>`);
             
 }
         // 4.4 Función que elimina el modal
